@@ -1,7 +1,7 @@
 import { ReactNode, useState, useEffect } from "react";
 import { auth } from "../services/firebaseConnection";
 import { onAuthStateChanged } from "firebase/auth";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 interface PrivateProps{
     children: ReactNode;
